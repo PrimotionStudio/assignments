@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Horizontal Navbar */
+nav.horizontal {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+  background-color: black;
+}
+nav.horizontal ul {
+  padding: 2rem;
+  background-color: black;
+  display: inline-flex;
+}
+nav.horizontal ul li {
+  list-style: none;
+  margin-right: 2rem;
+}
+nav.horizontal ul li:last-child {
+  margin-right: 0;
+}
+nav.horizontal ul li a {
+  padding: 2rem;
+  color: white;
+  text-decoration: none;
+}
+nav.horizontal ul li a.active,
+nav.horizontal ul li a.active:hover {
+  background-color: green;
+}
+nav.horizontal ul li a:hover {
+  background-color: grey;
+}
+
+/* Veritcal Navbar */
+nav.vertical {
+  display: flex;
+  margin: 2rem;
+  align-items: center;
+}
+nav.vertical ul {
+  padding: 2rem;
+  background-color: black;
+  display: block;
+}
+nav.vertical ul li {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+nav.vertical ul li:last-child {
+  margin-bottom: 0;
+}
+nav.vertical ul li a {
+  padding: 2rem;
+  color: white;
+  text-decoration: none;
+}
+nav.vertical ul li a.active,
+nav.vertical ul li a.active:hover {
+  background-color: green;
+}
+nav.vertical ul li a:hover {
+  background-color: grey;
+}
+
+/* Bars */
+div.bars {
+  display: flex;
+  justify-content: center;
+}
+div.bar {
+  display: inline-flex;
+  align-items: baseline;
+}
+div.bar div.bar1 {
+  background-color: red;
+  width: 50px;
+  height: 10px;
+}
+div.bar div.bar2 {
+  background-color: green;
+  width: 50px;
+  height: 20px;
+}
+div.bar div.bar3 {
+  background-color: blue;
+  width: 50px;
+  height: 10px;
+}
